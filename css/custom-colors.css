@@ -1,0 +1,168 @@
+/* Base Colors with !important */
+:root {
+    --primary: #004B87;
+    --secondary: #58595B;
+    --accent: #E5E5E5;
+    --highlight: #0085CA;
+    --quality: #C41230;
+}
+
+/* Override Styles */
+/* Buttons */
+.btn-primary {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+    color: #ffffff !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--highlight) !important;
+    border-color: var(--highlight) !important;
+}
+
+/* Navigation */
+.navbar {
+    background-color: var(--primary) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--accent) !important;
+}
+
+/* Headers and Text */
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.text-secondary {
+    color: var(--secondary) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--secondary) !important;
+}
+
+/* Service Items */
+.service-item {
+    border-color: var(--accent) !important;
+    background-color: #ffffff !important;
+}
+
+.service-icon {
+    color: var(--primary) !important;
+}
+
+.service-item:hover .service-icon {
+    color: var(--highlight) !important;
+}
+
+/* Backgrounds */
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.bg-secondary {
+    background-color: var(--secondary) !important;
+}
+
+.bg-light {
+    background-color: var(--accent) !important;
+}
+
+/* Quality Indicators */
+.badge-quality {
+    background-color: var(--quality) !important;
+    color: #ffffff !important;
+}
+
+/* Links */
+a {
+    color: var(--primary) !important;
+}
+
+a:hover {
+    color: var(--highlight) !important;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--secondary) !important;
+}
+
+.footer-shape {
+    background-color: var(--primary) !important;
+}
+
+/* Forms */
+.form-control:focus {
+    border-color: var(--primary) !important;
+    box-shadow: 0 0 0 0.2rem rgba(0, 75, 135, 0.25) !important;
+}
+
+/* Portfolio/Gallery */
+.portfolio-item .portfolio-btn {
+    background-color: var(--primary) !important;
+}
+
+.portfolio-item:hover .portfolio-btn {
+    background-color: var(--highlight) !important;
+}
+
+/* Custom Backgrounds */
+.bg-dark-radial {
+    background-color: var(--secondary) !important;
+}
+
+/* Progress Bars */
+.progress-bar {
+    background-color: var(--primary) !important;
+}
+
+/* Carousel */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: var(--primary) !important;
+}
+
+/* Custom Borders */
+.border-primary {
+    border-color: var(--primary) !important;
+}
+
+/* Custom Shadows */
+.shadow-primary {
+    box-shadow: 0 0 15px rgba(0, 75, 135, 0.15) !important;
+}
+
+/* Timeline Elements */
+.timeline-arrow {
+    background-color: var(--primary) !important;
+}
+
+/* Quote Section */
+.testimonial-item {
+    border-color: var(--accent) !important;
+}
+
+/* Alert Messages */
+.alert-primary {
+    background-color: rgba(0, 75, 135, 0.1) !important;
+    border-color: var(--primary) !important;
+    color: var(--primary) !important;
+}
+
+/* Pagination */
+.page-item.active .page-link {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
+/* Table Headers */
+.table thead th {
+    background-color: var(--primary) !important;
+    color: #ffffff !important;
+}
